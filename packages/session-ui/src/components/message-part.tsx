@@ -1460,6 +1460,7 @@ export interface ToolProps {
   sessionID?: string
   output?: string
   status?: string
+  error?: string
   hideDetails?: boolean
   defaultOpen?: boolean
   open?: boolean
@@ -1572,7 +1573,7 @@ PART_MAPPING["tool"] = function ToolPartDisplay(props) {
     <Show when={!hideQuestion()}>
       <div data-component="tool-part-wrapper" data-timeline-part-id={part().id}>
         <Switch>
-          <Match when={part().state.status === "error" && (part().state as any).error}>
+          <Match when={part().state.status === "error" && part().tool !== "task" && (part().state as any).error}>
             {(error) => {
               const cleaned = error().replace("Error: ", "")
               if (part().tool === "question" && cleaned.includes("dismissed this question")) {
@@ -1618,6 +1619,7 @@ PART_MAPPING["tool"] = function ToolPartDisplay(props) {
               // @ts-expect-error
               output={part().state.output}
               status={part().state.status}
+              error={part().state.status === "error" ? (part().state as any).error : undefined}
               hideDetails={props.hideDetails}
               defaultOpen={props.defaultOpen}
               open={controlledOpen()}
@@ -2072,13 +2074,19 @@ ToolRegistry.register({
         icon="task"
         status={props.status}
         trigger={trigger()}
-        hideDetails
+        hideDetails={!props.error}
         triggerAsLink
         triggerHref={href()}
         clickable={clickable()}
         onTriggerClick={navigate}
         onTriggerKeyDown={navigateKey}
-      />
+      >
+        <Show when={props.error}>
+          <div class="px-3 py-2 text-13-regular text-text-weak whitespace-pre-wrap">
+            {props.error!.replace(/^Error:\s*/, "").trim() || i18n.t("ui.toolErrorCard.failed")}
+          </div>
+        </Show>
+      </BasicTool>
     )
   },
 })
