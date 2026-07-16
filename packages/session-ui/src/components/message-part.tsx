@@ -1551,6 +1551,7 @@ PART_MAPPING["tool"] = function ToolPartDisplay(props) {
     if (part().tool !== "task") return
     const value = partMetadata().sessionId
     if (typeof value === "string" && value) return value
+    return taskSession(input(), data.sessionID, data.store.session, data.store.agent)
   })
   const taskHref = createMemo(() => {
     if (part().tool !== "task") return
