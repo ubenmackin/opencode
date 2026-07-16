@@ -62,6 +62,7 @@ type ToolCall = {
   messageID: SessionV1.ToolPart["messageID"]
   sessionID: SessionV1.ToolPart["sessionID"]
   done: Deferred.Deferred<void>
+  part?: SessionV1.ToolPart
 }
 
 interface ProcessorContext extends Input {
@@ -129,6 +130,9 @@ const layer = Layer.effect(
       const readToolCall = Effect.fn("SessionProcessor.readToolCall")(function* (toolCallID: string) {
         const call = ctx.toolcalls[toolCallID]
         if (!call) return undefined
+        // Prefer the in-memory part cached by updateToolCall so failToolCall sees the latest
+        // state (including metadata) even if the projector hasn't persisted it to the DB yet.
+        if (call.part) return { call, part: call.part }
         const part = yield* session.getPart({
           partID: call.partID,
           messageID: call.messageID,
@@ -153,6 +157,7 @@ const layer = Layer.effect(
           partID: part.id,
           messageID: part.messageID,
           sessionID: part.sessionID,
+          part,
         }
         return part
       })
@@ -230,6 +235,7 @@ const layer = Layer.effect(
             partID: part.id,
             messageID: part.messageID,
             sessionID: part.sessionID,
+            part,
           }
           return { call: ctx.toolcalls[input.id], part }
         }
@@ -248,6 +254,7 @@ const layer = Layer.effect(
           partID: part.id,
           messageID: part.messageID,
           sessionID: part.sessionID,
+          part,
         }
         return { call: ctx.toolcalls[input.id], part }
       })
