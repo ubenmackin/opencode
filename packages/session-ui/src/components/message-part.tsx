@@ -598,7 +598,7 @@ function taskSession(
   const description = typeof input.description === "string" ? input.description : ""
   const agent = taskAgent(input.subagent_type, agents).name
   return (sessions ?? [])
-    .filter((session) => session.parentID === parentID && !session.time?.archived)
+    .filter((session) => session.parentID === parentID)
     .filter((session) => (description ? session.title.startsWith(description) : true))
     .filter((session) => (agent ? session.title.includes(`@${agent}`) : true))
     .sort((a, b) => (b.time.created ?? 0) - (a.time.created ?? 0))[0]?.id
