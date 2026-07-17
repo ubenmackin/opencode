@@ -115,10 +115,52 @@ function hydrate(db: Database.Interface["db"], rows: (typeof MessageTable.$infer
       }
     }
 
-    return rows.map((row) => ({
+    const items = rows.map((row) => ({
       info: info(row),
       parts: partByMessage.get(row.id) ?? [],
     }))
+
+    yield* enrichTaskErrorMetadata(db, items)
+
+    return items
+  })
+}
+
+// Tool cancellation can race with the projector: when the task tool sets its
+// running state metadata (including the child session id) and then fails,
+// the persisted error state sometimes lacks the metadata. Without it the UI
+// cannot link back to the child session. Backfill the child session id from
+// SessionTable by matching child sessions of the part's owning session whose
+// title begins with the task description.
+function enrichTaskErrorMetadata(db: Database.Interface["db"], items: { info: Info; parts: Part[] }[]) {
+  return Effect.gen(function* () {
+    const candidates: { part: Extract<Part, { type: "tool" }>; sessionID: SessionID; description: string }[] = []
+    for (const item of items) {
+      for (const p of item.parts) {
+        if (p.type !== "tool" || p.tool !== "task") continue
+        const state = p.state as { status?: string; metadata?: Record<string, unknown>; input?: Record<string, unknown> }
+        if (state.status !== "error") continue
+        if (state.metadata && typeof state.metadata.sessionId === "string" && state.metadata.sessionId) continue
+        const description = typeof state.input?.description === "string" ? state.input.description : ""
+        if (!description) continue
+        candidates.push({ part: p as Extract<Part, { type: "tool" }>, sessionID: p.sessionID, description })
+      }
+    }
+
+    for (const { part: toolPart, sessionID, description } of candidates) {
+      const rows = yield* db
+        .select({ id: SessionTable.id, title: SessionTable.title })
+        .from(SessionTable)
+        .where(eq(SessionTable.parent_id, sessionID))
+        .orderBy(desc(SessionTable.time_created))
+        .all()
+        .pipe(Effect.orDie)
+      const match = rows.find((row) => row.title.startsWith(description))?.id
+      if (!match) continue
+      const state = toolPart.state as { metadata?: Record<string, unknown> }
+      state.metadata ??= {}
+      state.metadata.sessionId = match
+    }
   })
 }
 
