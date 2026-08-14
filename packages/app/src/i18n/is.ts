@@ -335,7 +335,6 @@ export const dict = {
   "prompt.mode.shell": "Skel",
   "prompt.mode.normal": "Kvaðning",
   "prompt.mode.shell.exit": "esc að hætta",
-  "session.child.promptDisabled": "Ekki er hægt að biðja um undirboðslotur.",
   "session.child.backToParent": "Aftur í aðalfund.",
   "prompt.example.1": "Lagaðu TODO í kóðagrunninum",
   "prompt.example.2": "Hver er tæknistafla þessa verkefnis?",

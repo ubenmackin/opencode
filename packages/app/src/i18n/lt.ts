@@ -336,7 +336,6 @@ export const dict = {
   "prompt.mode.shell": "Apvalkalas",
   "prompt.mode.normal": "Užklausa",
   "prompt.mode.shell.exit": "esc, kad išeitumėte",
-  "session.child.promptDisabled": "Poagento seansui negalima siųsti užklausų.",
   "session.child.backToParent": "Grįžti į pagrindinį seansą.",
   "prompt.example.1": "Pataisykite TODO kodų bazėje",
   "prompt.example.2": "Kokia šio projekto techninė dalis?",

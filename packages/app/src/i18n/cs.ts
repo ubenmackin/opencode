@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc pro ukončení",
-  "session.child.promptDisabled": "Nelze vyžádat relace podagenta.",
   "session.child.backToParent": "Zpět k hlavní relaci.",
   "prompt.example.1": "Opravte TODO v kódové základně",
   "prompt.example.2": "Jaký je technický stack tohoto projektu?",

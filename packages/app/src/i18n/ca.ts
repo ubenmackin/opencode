@@ -333,7 +333,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Indicació",
   "prompt.mode.shell.exit": "esc per sortir",
-  "session.child.promptDisabled": "No es poden demanar sessions de subagent.",
   "session.child.backToParent": "Torna a la sessió principal.",
   "prompt.example.1": "Arregleu una TODO a la base de codi",
   "prompt.example.2": "Quina és la pila tecnològica d'aquest projecte?",

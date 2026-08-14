@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Kërkesë",
   "prompt.mode.shell.exit": "esc për të dalë",
-  "session.child.promptDisabled": "Seancat e nënagjentit nuk mund të kërkohen.",
   "session.child.backToParent": "Kthehu në sesionin kryesor.",
   "prompt.example.1": "Rregulloni një TODO në bazën e kodeve",
   "prompt.example.2": "Cili është grupi teknologjik i këtij projekti?",

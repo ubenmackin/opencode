@@ -330,7 +330,6 @@ export const dict: Record<string, string> = {
   "prompt.mode.shell": "ෂෙල්",
   "prompt.mode.normal": "ප්‍රොම්ප්ට්",
   "prompt.mode.shell.exit": "පිටවීමට esc",
-  "session.child.promptDisabled": "උපකාරක සැසි ඉල්ලා සිටිය නොහැක.",
   "session.child.backToParent": "ප්‍රධාන සැසිය වෙත ආපසු.",
   "prompt.example.1": "කේත පදනමේ TODO එකක් සවි කරන්න",
   "prompt.example.2": "මෙම ව්‍යාපෘතියේ තාක්ෂණික තොගය කුමක්ද?",

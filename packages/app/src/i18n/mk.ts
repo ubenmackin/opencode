@@ -332,7 +332,6 @@ export const dict = {
   "prompt.mode.shell": "Школка",
   "prompt.mode.normal": "Прашај",
   "prompt.mode.shell.exit": "esc за излез",
-  "session.child.promptDisabled": "Сесиите на субагентите не можат да бидат поттикнати.",
   "session.child.backToParent": "Назад на главната сесија.",
   "prompt.example.1": "Поправете TODO во базата на кодови",
   "prompt.example.2": "Кој е технолошкиот куп на овој проект?",

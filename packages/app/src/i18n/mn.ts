@@ -334,7 +334,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Промпт",
   "prompt.mode.shell.exit": "esc товчийг дарна уу",
-  "session.child.promptDisabled": "Subagent сессийг сануулах боломжгүй.",
   "session.child.backToParent": "Үндсэн хуралдаан руу буцах.",
   "prompt.example.1": "Кодын сан дахь TODO-г засах",
   "prompt.example.2": "Энэ төслийн технологийн стек нь юу вэ?",

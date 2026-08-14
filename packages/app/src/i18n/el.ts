@@ -332,7 +332,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Προτροπή",
   "prompt.mode.shell.exit": "esc για έξοδο",
-  "session.child.promptDisabled": "Δεν είναι δυνατή η αποστολή προτροπών σε συνεδρίες υποπρακτόρων.",
   "session.child.backToParent": "Επιστροφή στην κύρια συνεδρία.",
   "prompt.example.1": "Διόρθωση TODO στη βάση κώδικα",
   "prompt.example.2": "Ποια είναι η τεχνική στοίβα αυτού του έργου;",

@@ -335,7 +335,6 @@ export const dict = {
   "prompt.mode.shell": "Ljuska",
   "prompt.mode.normal": "Upit",
   "prompt.mode.shell.exit": "esc za izlaz",
-  "session.child.promptDisabled": "Sesije subagenta ne mogu se tražiti.",
   "session.child.backToParent": "Povratak na glavnu sesiju.",
   "prompt.example.1": "Ispravite TODO u bazi koda",
   "prompt.example.2": "Koji je tehnološki skup ovog projekta?",

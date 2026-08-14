@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Solicitare",
   "prompt.mode.shell.exit": "esc pentru ieșire",
-  "session.child.promptDisabled": "Sesiunile subagent nu pot fi interogate.",
   "session.child.backToParent": "Înapoi la sesiunea principală.",
   "prompt.example.1": "Rezolvă un TODO din cod",
   "prompt.example.2": "Care este stack-ul tehnologic al acestui proiect?",

@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc ເພື່ອອອກ",
-  "session.child.promptDisabled": "ບໍ່ສາມາດສົ່ງ prompt ໃຫ້ເຊດຊັນ subagent ໄດ້.",
   "session.child.backToParent": "ກັບໄປທີ່ເຊດຊັນຫຼັກ.",
   "prompt.example.1": "ແກ້ໄຂ TODO ໃນ codebase",
   "prompt.example.2": "ເທັກໂນໂລຢີຂອງໂຄງການນີ້ແມ່ນຫຍັງ?",

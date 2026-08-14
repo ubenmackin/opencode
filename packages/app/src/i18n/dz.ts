@@ -335,7 +335,6 @@ export const dict: Record<string, string> = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "འདི་འཕྲོ་ལས",
   "prompt.mode.shell.exit": "esc ཕྱིར་འཐོན་འབད་ནི།",
-  "session.child.promptDisabled": "ཡན་ལག་ལས་ཚབ་ལཱ་ཡུན་ཚུ་ བརྡ་སྟོན་འབད་མི་བཏུབ།",
   "session.child.backToParent": "ལཱ་ཡུན་ངོ་མ་ལུ་ལོག་འགྱོ།",
   "prompt.example.1": "གསང་གྲངས་གཞི་རྟེན་ནང་ ཊོ་ཌོ་ཅིག་ བདེ་སྒྲིག་འབད།",
   "prompt.example.2": "ལས་འགུལ་འདི་གི་འཕྲུལ་རིག་བང་རིམ་ག་ཅི་སྨོ?",

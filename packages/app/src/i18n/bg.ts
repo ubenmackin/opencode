@@ -334,7 +334,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "подкана",
   "prompt.mode.shell.exit": "esc за изход",
-  "session.child.promptDisabled": "Субагентните сесии не могат да бъдат подканени.",
   "session.child.backToParent": "Назад към основната сесия.",
   "prompt.example.1": "Поправете TODO в кодовата база",
   "prompt.example.2": "Какъв е техническият стек на този проект?",

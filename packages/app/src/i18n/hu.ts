@@ -335,7 +335,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Utasítás",
   "prompt.mode.shell.exit": "esc a kilépéshez",
-  "session.child.promptDisabled": "Az alügynöki munkamenetek nem kérhetők fel.",
   "session.child.backToParent": "Vissza a fő munkamenethez.",
   "prompt.example.1": "Javítson ki egy TODO-t a kódbázisban",
   "prompt.example.2": "Mi ennek a projektnek a technológiai halmaza?",

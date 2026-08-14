@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Arahan",
   "prompt.mode.shell.exit": "esc untuk keluar",
-  "session.child.promptDisabled": "Sesi subagen tidak boleh diprompt.",
   "session.child.backToParent": "Kembali ke sesi utama.",
   "prompt.example.1": "Betulkan TODO dalam pangkalan kod",
   "prompt.example.2": "Apakah timbunan teknologi projek ini?",

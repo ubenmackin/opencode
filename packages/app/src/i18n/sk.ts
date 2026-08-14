@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Výzva",
   "prompt.mode.shell.exit": "esc na ukončenie",
-  "session.child.promptDisabled": "V reláciách podagenta nie je možné zadávať výzvy.",
   "session.child.backToParent": "Späť na hlavnú reláciu.",
   "prompt.example.1": "Opraviť TODO v kóde",
   "prompt.example.2": "Aký je technologický stack tohto projektu?",

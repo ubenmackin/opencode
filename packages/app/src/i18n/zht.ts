@@ -353,7 +353,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "按 esc 退出",
-  "session.child.promptDisabled": "無法在子代理程式工作階段中輸入提示詞。",
   "session.child.backToParent": "返回主要工作階段。",
 
   "prompt.example.1": "修復程式碼庫中的一個 TODO",

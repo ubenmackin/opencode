@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Промпт",
   "prompt.mode.shell.exit": "есц за излаз",
-  "session.child.promptDisabled": "сесије субагента не могу да буду упитане.",
   "session.child.backToParent": "Назад на главну сесију.",
   "prompt.example.1": "Поправите ТОДО у бази кода",
   "prompt.example.2": "Који је технолошки скуп овог пројекта?",

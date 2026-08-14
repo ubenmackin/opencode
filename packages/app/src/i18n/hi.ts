@@ -338,7 +338,6 @@ export const dict = {
   "prompt.mode.shell": "शेल",
   "prompt.mode.normal": "प्रॉम्प्ट",
   "prompt.mode.shell.exit": "बाहर निकलने के लिए esc",
-  "session.child.promptDisabled": "सबएजेंट सेशन में प्रॉम्प्ट नहीं भेजा जा सकता।",
   "session.child.backToParent": "मुख्य सेशन पर वापस जाएँ।",
   "prompt.example.1": "कोडबेस में एक TODO ठीक करें",
   "prompt.example.2": "इस प्रोजेक्ट का तकनीकी स्टैक क्या है?",

@@ -334,7 +334,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "çıxmaq üçün esc",
-  "session.child.promptDisabled": "Alt agent sessiyalarına prompt göndərmək olmaz.",
   "session.child.backToParent": "Əsas sessiyaya qayıt.",
   "prompt.example.1": "Kod bazasında TODO-nu həll et",
   "prompt.example.2": "Bu layihənin texnologiya yığını nədir?",

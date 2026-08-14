@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "សែល",
   "prompt.mode.normal": "ប្រអប់បញ្ចូល",
   "prompt.mode.shell.exit": "esc ដើម្បីចេញ",
-  "session.child.promptDisabled": "សម័យ Subagent មិនអាចត្រូវបានសួរ។",
   "session.child.backToParent": "ត្រឡប់ទៅសម័យមេ។",
   "prompt.example.1": "ជួសជុល TODO នៅក្នុងមូលដ្ឋានកូដ",
   "prompt.example.2": "តើអ្វីជាជង់បច្ចេកវិទ្យានៃគម្រោងនេះ?",

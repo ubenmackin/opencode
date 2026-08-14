@@ -1095,7 +1095,6 @@ export const dict = {
 
   "common.clear": "Tøm",
 
-  "session.child.promptDisabled": "Underagentsesjoner kan ikke motta forespørsler.",
   "session.child.backToParent": "Tilbake til hovedsesjonen.",
 
   "wsl.server.add": "Legg til WSL-server",

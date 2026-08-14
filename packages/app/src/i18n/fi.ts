@@ -238,7 +238,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Kehote",
   "prompt.mode.shell.exit": "poistu painamalla Esc",
-  "session.child.promptDisabled": "Aliagentti-istuntoihin ei voi lähettää kehotteita.",
   "session.child.backToParent": "Takaisin pääistuntoon.",
   "prompt.example.1": "Korjaa TODO koodikannassa",
   "prompt.example.2": "Mikä on tämän projektin teknologiapino?",

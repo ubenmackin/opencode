@@ -334,7 +334,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc",
-  "session.child.promptDisabled": "Subagent ဆက်ရှင်များကို တောင်းဆို၍မရပါ။",
   "session.child.backToParent": "ပင်မစက်ရှင်သို့ ပြန်သွားရန်။",
   "prompt.example.1": "ကုဒ်ဘေ့စ်တွင် TODO ကိုပြင်ပါ။",
   "prompt.example.2": "ဤပရောဂျက်၏ နည်းပညာအစုအပုံကား အဘယ်နည်း။",
