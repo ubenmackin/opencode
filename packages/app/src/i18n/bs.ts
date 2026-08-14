@@ -356,7 +356,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc za izlaz",
-  "session.child.promptDisabled": "Sesijama podagenta nije moguće slati upite.",
   "session.child.backToParent": "Nazad na glavnu sesiju.",
 
   "prompt.example.1": "Popravi TODO u bazi koda",

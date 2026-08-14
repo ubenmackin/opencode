@@ -332,7 +332,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Промпт",
   "prompt.mode.shell.exit": "esc барои баромадан",
-  "session.child.promptDisabled": "Сеансҳои субагентро дархост кардан мумкин нест.",
   "session.child.backToParent": "Бозгашт ба ҷаласаи асосӣ.",
   "prompt.example.1": "TODO-ро дар пойгоҳи код ислоҳ кунед",
   "prompt.example.2": "Андозаи техникии ин лоиҳа чӣ гуна аст?",

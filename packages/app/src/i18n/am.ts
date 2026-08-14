@@ -327,7 +327,6 @@ export const dict = {
   "prompt.mode.shell": "ሼል",
   "prompt.mode.normal": "ፕሮምፕት",
   "prompt.mode.shell.exit": "esc ለመውጣት",
-  "session.child.promptDisabled": "ንዑስ ክፍለ ጊዜዎች ሊጠየቁ አይችሉም።",
   "session.child.backToParent": "ወደ ዋናው ክፍለ ጊዜ ተመለስ",
   "prompt.example.1": "TODOን በኮድ ቤዝ ውስጥ ያስተካክሉ",
   "prompt.example.2": "የዚህ ፕሮጀክት የቴክኖሎጂ ቁልል ምንድን ነው?",

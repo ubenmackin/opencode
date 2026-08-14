@@ -336,7 +336,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "موجّه",
   "prompt.mode.shell.exit": "esc للخروج",
-  "session.child.promptDisabled": "لا يمكن إرسال موجّهات إلى جلسات الوكلاء الفرعيين.",
   "session.child.backToParent": "العودة إلى الجلسة الرئيسية.",
   "prompt.example.1": "إصلاح TODO في قاعدة التعليمات البرمجية",
   "prompt.example.2": "ما هو المكدس التقني لهذا المشروع؟",

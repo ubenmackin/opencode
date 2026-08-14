@@ -333,7 +333,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Հուշում",
   "prompt.mode.shell.exit": "դուրս գալու համար՝ esc",
-  "session.child.promptDisabled": "Ենթագենտի նիստերը չեն կարող հուշվել:",
   "session.child.backToParent": "Վերադառնալ հիմնական նիստին։",
   "prompt.example.1": "Ստուգել TODO կոդերի բազայում",
   "prompt.example.2": "Ինչպիսի՞ն է այս նախագծի տեխնիկական փաթեթը։",

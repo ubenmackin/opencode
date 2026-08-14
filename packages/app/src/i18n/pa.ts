@@ -337,7 +337,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "پرامپٹ",
   "prompt.mode.shell.exit": "باہر نکلن لئی ایس سی",
-  "session.child.promptDisabled": "ذیلی ایجنٹ سیشناں نو اشارہ نئیں کیتا جا سکدا۔",
   "session.child.backToParent": "مین سیشن تے واپس جاؤ۔",
   "prompt.example.1": "کوڈ بیس چ اک TODO ٹھیک کرو",
   "prompt.example.2": "اس پروجیکٹ دا ٹیک سٹیک کی اے؟",

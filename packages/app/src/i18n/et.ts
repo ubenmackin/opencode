@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Viip",
   "prompt.mode.shell.exit": "esc väljumiseks",
-  "session.child.promptDisabled": "Alamagendi seansse ei saa küsida.",
   "session.child.backToParent": "Tagasi põhiseansse.",
   "prompt.example.1": "Parandage koodibaasis TODO",
   "prompt.example.2": "Mis on selle projekti tehniline stack?",

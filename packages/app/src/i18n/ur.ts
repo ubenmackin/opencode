@@ -340,7 +340,6 @@ export const dict = {
   "prompt.mode.shell": "شیل",
   "prompt.mode.normal": "پرامپٹ",
   "prompt.mode.shell.exit": "باہر نکلنے کے لیے esc",
-  "session.child.promptDisabled": "ذیلی ایجنٹ کے سیشنز میں پرامپٹ نہیں دیا جا سکتا۔",
   "session.child.backToParent": "مرکزی سیشن پر واپس جائیں۔",
   "prompt.example.1": "کوڈ بیس میں TODO کو درست کریں۔",
   "prompt.example.2": "اس پروجیکٹ کا ٹیک اسٹیک کیا ہے؟",

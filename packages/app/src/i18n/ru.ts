@@ -354,7 +354,6 @@ export const dict = {
   "prompt.mode.shell": "Оболочка",
   "prompt.mode.normal": "Промпт",
   "prompt.mode.shell.exit": "esc для выхода",
-  "session.child.promptDisabled": "В сессиях субагентов нельзя отправлять запросы.",
   "session.child.backToParent": "Вернуться к основной сессии.",
 
   "prompt.example.1": "Исправить TODO в коде",

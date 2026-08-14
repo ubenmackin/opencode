@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "მოთხოვნა",
   "prompt.mode.shell.exit": "გასასვლელად დააჭირეთ esc-ს",
-  "session.child.promptDisabled": "სუბაგენტის სესიების მოთხოვნა შეუძლებელია.",
   "session.child.backToParent": "უკან მთავარ სესიაზე.",
   "prompt.example.1": "გაასწორეთ TODO კოდების ბაზაში",
   "prompt.example.2": "რა არის ამ პროექტის ტექნიკური დასტა?",

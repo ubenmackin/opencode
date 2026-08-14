@@ -333,7 +333,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Tezkor",
   "prompt.mode.shell.exit": "chiqish uchun esc",
-  "session.child.promptDisabled": "Subagent seanslarini so'rash mumkin emas.",
   "session.child.backToParent": "Asosiy sessiyaga qaytish.",
   "prompt.example.1": "Kod bazasida TODO ni tuzating",
   "prompt.example.2": "Ushbu loyihaning texnologik to'plami nima?",

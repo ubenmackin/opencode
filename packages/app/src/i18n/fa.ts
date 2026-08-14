@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "پوسته",
   "prompt.mode.normal": "پرامپت",
   "prompt.mode.shell.exit": "esc برای خروج",
-  "session.child.promptDisabled": "جلسات Subagent را نمی توان درخواست کرد.",
   "session.child.backToParent": "بازگشت به جلسه اصلی",
   "prompt.example.1": "یک TODO را در پایگاه کد برطرف کنید",
   "prompt.example.2": "پشته فنی این پروژه چیست؟",

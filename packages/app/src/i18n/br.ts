@@ -338,7 +338,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc para sair",
-  "session.child.promptDisabled": "Não é possível enviar prompts em sessões de subagentes.",
   "session.child.backToParent": "Voltar à sessão principal.",
   "prompt.example.1": "Corrigir um TODO no código",
   "prompt.example.2": "Qual é a stack tecnológica deste projeto?",

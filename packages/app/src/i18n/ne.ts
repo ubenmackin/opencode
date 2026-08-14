@@ -332,7 +332,6 @@ export const dict: Record<string, string> = {
   "prompt.mode.shell": "शेल",
   "prompt.mode.normal": "प्रम्प्ट",
   "prompt.mode.shell.exit": "esc बाहिर निस्कन",
-  "session.child.promptDisabled": "Subagent सत्रहरू प्रोम्प्ट गर्न सकिँदैन।",
   "session.child.backToParent": "मुख्य सत्रमा फर्कनुहोस्।",
   "prompt.example.1": "कोडबेसमा TODO फिक्स गर्नुहोस्",
   "prompt.example.2": "यस परियोजनाको प्राविधिक स्ट्याक के हो?",

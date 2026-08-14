@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "školjka",
   "prompt.mode.normal": "Poziv",
   "prompt.mode.shell.exit": "esc za izhod",
-  "session.child.promptDisabled": "Sej podagenta ni mogoče pozvati.",
   "session.child.backToParent": "Nazaj na glavno sejo.",
   "prompt.example.1": "Popravite TODO v zbirki kod",
   "prompt.example.2": "Kakšen je tehnološki sklop tega projekta?",

@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "çykmak",
-  "session.child.promptDisabled": "Subagent sessiýalary soralyp bilinmez.",
   "session.child.backToParent": "Esasy sessiýa dolan.",
   "prompt.example.1": "Kod bazasynda TODO düzediň",
   "prompt.example.2": "Bu taslamanyň tehnologiýa toplumy näme?",

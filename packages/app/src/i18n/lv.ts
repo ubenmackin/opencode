@@ -331,7 +331,6 @@ export const dict = {
   "prompt.mode.shell": "Čaula",
   "prompt.mode.normal": "Uzdot",
   "prompt.mode.shell.exit": "esc, lai izietu",
-  "session.child.promptDisabled": "Apakšaģenta sesijās nevar uzdot jautājumus.",
   "session.child.backToParent": "Atpakaļ uz galveno sesiju.",
   "prompt.example.1": "Izlabot TODO kodā",
   "prompt.example.2": "Kāda ir šī projekta tehnoloģiju kaudze?",

@@ -330,7 +330,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc at fara út",
-  "session.child.promptDisabled": "Subagent setur kunnu ikki biðjast um.",
   "session.child.backToParent": "Aftur til høvuðsløtu.",
   "prompt.example.1": "Rætta eitt TODO í kodugrundarlagnum",
   "prompt.example.2": "Hvat er tøknistakkurin í hesi verkætlan?",

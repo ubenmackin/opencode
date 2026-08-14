@@ -332,7 +332,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "esc för att avsluta",
-  "session.child.promptDisabled": "Det går inte att skicka promptar till underagentsessioner.",
   "session.child.backToParent": "Tillbaka till huvudsessionen.",
   "prompt.example.1": "Fixa en TODO i kodbasen",
   "prompt.example.2": "Vad är den tekniska stacken i det här projektet?",

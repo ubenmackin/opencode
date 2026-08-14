@@ -338,7 +338,6 @@ export const dict = {
   "prompt.mode.shell": "Terminal",
   "prompt.mode.normal": "Prompt",
   "prompt.mode.shell.exit": "Naciśnij Esc, aby wyjść",
-  "session.child.promptDisabled": "Nie można wysyłać promptów w sesjach podagentów.",
   "session.child.backToParent": "Wróć do głównej sesji.",
   "prompt.example.1": "Napraw TODO w bazie kodu",
   "prompt.example.2": "Jaki jest stos technologiczny tego projektu?",

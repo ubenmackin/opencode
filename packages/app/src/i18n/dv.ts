@@ -336,7 +336,6 @@ export const dict = {
   "prompt.mode.shell": "ޝެލް",
   "prompt.mode.normal": "ޕްރޮމްޕްޓް",
   "prompt.mode.shell.exit": "esc އިން ނުކުތުމަށްޓަކައެވެ",
-  "session.child.promptDisabled": "ސަބްއޭޖެންޓް ސެޝަންތަކަށް ޕްރޮމްޕްޓް ނުކުރެވޭނެއެވެ.",
   "session.child.backToParent": "އަނބުރާ މައި ސެޝަނަށް.",
   "prompt.example.1": "ކޯޑްބޭސްގައި ޓޯޑޯއެއް ރަނގަޅުކުރުން",
   "prompt.example.2": "މި މަޝްރޫއުގެ ޓެކް ސްޓޭކަކީ ކޮބައި ހެއްޔެވެ؟",

@@ -901,7 +901,6 @@ export const dict = {
   "model.tooltip.provider": "공급자",
   "model.tooltip.reasoning": "추론",
   "common.clear": "지우기",
-  "session.child.promptDisabled": "하위 에이전트 세션에는 프롬프트를 입력할 수 없습니다.",
   "session.child.backToParent": "메인 세션으로 돌아가기.",
 
   "wsl.server.add": "WSL 서버 추가",

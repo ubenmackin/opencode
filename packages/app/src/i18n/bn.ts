@@ -331,7 +331,6 @@ export const dict: Record<string, string> = {
   "prompt.mode.shell": "শেল",
   "prompt.mode.normal": "প্রম্পট",
   "prompt.mode.shell.exit": "প্রস্থান করতে esc",
-  "session.child.promptDisabled": "সাবজেন্ট সেশন প্রম্পট করা যাবে না.",
   "session.child.backToParent": "মূল সেশনে ফিরে যান।",
   "prompt.example.1": "কোডবেসে একটি TODO ঠিক করুন",
   "prompt.example.2": "এই প্রকল্পের প্রযুক্তি স্ট্যাক কি?",

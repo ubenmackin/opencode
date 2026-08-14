@@ -338,7 +338,6 @@ export const dict = {
   "prompt.mode.shell": "Shell",
   "prompt.mode.normal": "Lời nhắc",
   "prompt.mode.shell.exit": "esc để thoát",
-  "session.child.promptDisabled": "Không thể gửi lời nhắc trong phiên tác nhân phụ.",
   "session.child.backToParent": "Quay lại phiên chính.",
   "prompt.example.1": "Sửa TODO trong cơ sở mã",
   "prompt.example.2": "Ngăn xếp công nghệ của dự án này là gì?",
